@@ -1,0 +1,53 @@
+body {
+  font-family: Roboto,Tahoma,sans-serif;
+  font-size: 22px; }
+
+.container {
+  display: inline-block;
+  position: relative;
+  width: 875px;
+  height: 300px;
+  background: url("../img/sprite.png") no-repeat 0 100%; }
+
+.verbose {
+  font-size: 24px;
+  text-align: center; }
+
+#input1nest, #input2nest {
+  position: absolute;
+  font-size: 24px;
+  bottom: 150px; }
+
+#input1nest {
+  left: 162px; }
+
+#input2nest {
+  left: 400px;
+  opacity: 0;
+  transition: opacity 1s; }
+
+#num1, #num2 {
+  width: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px; }
+
+#arrow1 {
+  position: absolute;
+  bottom: 80px;
+  left: 35px; }
+
+#arrow2 {
+  position: absolute;
+  bottom: 80px;
+  left: 270px;
+  opacity: 0;
+  transition: opacity 1s; }
+
+#answerInput {
+  width: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px; }
+
+/*# sourceMappingURL=style.css.map */
